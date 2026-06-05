@@ -1,0 +1,26 @@
+Short Report: Protocols Identified Using Wireshark
+
+Tool Used:
+Wireshark (version 4.2.2)
+
+Operating System:
+Ubuntu Linux
+
+Capture Details:
+- Active Interface: wlan0
+- Capture Duration: Approximately 1 minute
+- Capture File: task5_network_capture.pcap / pcapng
+
+Protocols Identified:
+
+1. DNS (Domain Name System)
+DNS packets were captured when accessing websites such as google.com. DNS is used to resolve domain names into IP addresses before communication starts.
+
+2. TCP (Transmission Control Protocol)
+TCP packets were observed during reliable data transmission. TCP ensures data is delivered in order, checks for errors, and retransmits lost packets.
+
+3. HTTP / TLS
+HTTP or TLS packets were identified during web browsing. TLS indicates encrypted communication used by HTTPS websites to protect data confidentiality.
+
+Conclusion:
+This task provided hands-on experience in capturing and analyzing network traffic. Wireshark was used to identify different protocols and understand how they work together in normal network communication.
